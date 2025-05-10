@@ -178,6 +178,9 @@ _io = [
         Subsignal("p", Pins("A4")),
         Subsignal("n", Pins("A3")),
     ),
+    # frank add
+    ("aclk",0,Pins(1)),
+    ("aresetn",0,Pins(1)),
 ]
 
 # Connectors ---------------------------------------------------------------------------------------

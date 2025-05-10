@@ -17,6 +17,9 @@ _io = [
     # Seems like there are no on-board clock sources for PL when PS is not used so here a
     # clock-capable PMOD connector pin is added as a possible clock input (not tested).
     ("pmod_hda16_cc", 0, Pins("B21"), IOStandard("LVCMOS33")),
+    ("aclk",0,Pins(1)),
+    ("aresetn",0,Pins(1)),
+    # frank add 2 pins 
 ]
 
 # Platform -----------------------------------------------------------------------------------------

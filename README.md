@@ -10,6 +10,10 @@
 
 [![](https://github.com/litex-hub/litex-boards/workflows/ci/badge.svg)](https://github.com/litex-hub/litex-boards/actions) ![License](https://img.shields.io/badge/License-BSD%202--Clause-orange.svg)
 
+# Fank Modified
+1. Add the pins 'aclk' 'aresetn' in ZCU102 for shared MEM system 
+2. Add pins in KV260 for shared MEM system
+
 [> Intro
 --------
 <figure>
